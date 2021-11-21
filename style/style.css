@@ -1,0 +1,140 @@
+/* 
+
+ 1-  global style
+
+ 2-THEAM 
+
+ 3 - START HEADER 
+
+ 4- START CARD 
+
+5- START FOOTER 
+ */
+
+
+/* global style */
+
+body {
+    transition: all 0.56s ease-in-out;
+    -webkit-transition: all 0.56s ease-in-out;
+    -moz-transition: all 0.56s ease-in-out;
+    -ms-transition: all 0.56s ease-in-out;
+    -o-transition: all 0.56s ease-in-out;
+    background-color: #F8F8FF;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: all 0.56s ease-in-out;
+    -webkit-transition: all 0.56s ease-in-out;
+    -moz-transition: all 0.56s ease-in-out;
+    -ms-transition: all 0.56s ease-in-out;
+    -o-transition: all 0.56s ease-in-out;
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    text-transform: none;
+    text-decoration-style: none;
+    -moz-text-decoration-style: none;
+}
+
+a:hover {
+    color: palevioletred;
+    text-decoration: none;
+}
+
+
+/* THEAM  */
+
+
+/* START HEADER  */
+
+.header {
+    background-image: url(../assets/banner.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+    padding: 20px;
+    color: white;
+}
+
+.header p,
+.header h1 {
+    padding: 10px;
+    margin: 10px;
+}
+
+.header h1 {
+    margin-top: 120px;
+}
+
+.header hr {
+    width: 40%;
+}
+
+.header p {
+    margin-bottom: 100px;
+}
+
+
+/* MAIN */
+
+.main {
+    margin-top: 50px;
+    background-color: white;
+    padding: 20px;
+}
+
+.main * {
+    padding: 20px;
+    margin: 20px;
+}
+
+.main p {
+    font-size: large
+}
+
+.main span {
+    font-size: 90px;
+}
+
+
+/* START CARD  */
+
+.cards {
+    margin-top: 50Px;
+}
+
+.cards .card {
+    margin: 10px;
+    padding: 10px;
+}
+
+.cards .card img :hover {
+    opacity: 0.9;
+}
+
+
+/*  START FOOTER  */
+
+.footer {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.footer p,
+br,
+button {
+    padding: 20px;
+}
+
+.footer p {
+    font-size: 20px
+}
+
+.footer i {
+    padding: 10px;
+}
